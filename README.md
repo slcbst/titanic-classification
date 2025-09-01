@@ -31,7 +31,7 @@ Le dataset contient les informations des passagers du Titanic, avec notamment :
 ### 2. Préprocessing & Pipeline
 - **Imputation** des valeurs manquantes pour toutes les variables (médiane pour 'Age', mode pour 'Embarked').  
 - **Encodage** des variables catégorielles ('Sex', 'Embarked').  
-- **Mise à l’échelle** des variables numériques ('Age', 'Fare').  
+- **Standardisation** des variables numériques ('Age', 'Fare').  
 - **Transformation log1p** appliquée sur `Fare` pour réduire l’asymétrie.  
 - Construction d’un pipeline sklearn reproductible.  
 
